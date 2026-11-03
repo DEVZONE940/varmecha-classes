@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Varmecha Classes · Coaching centre in Scheme 78, Vijay Nagar, Indore</title>
+<meta name="description" content="Varmecha Classes is a coaching centre in Scheme 78, Vijay Nagar, Indore, rated 4.9 from 45 Google reviews. Call +91 88393 89003.">
+<meta property="og:title" content="Varmecha Classes · Scheme 78, Vijay Nagar, Indore">
+<meta property="og:description" content="Coaching centre in Scheme 78, Vijay Nagar, Indore. Rated 4.9 on Google.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1d3350">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='#1d3350'/><text x='50' y='68' font-size='54' font-family='Georgia,serif' fill='#f8f5ef' text-anchor='middle'>V</text></svg>">
+<style>
+  :root{
+    --ink:#14120f; --ink-soft:#413b34; --paper:#f8f5ef; --paper-2:#fffdf9;
+    --accent:#c9a227; --accent-deep:#1d3350; --line:rgba(20,18,15,.12);
+    --radius:20px;
+    --display:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    --body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+  img{max-width:100%}
+  a{color:inherit}
+  .wrap{width:min(1120px,calc(100% - 40px));margin:0 auto}
+  .eyebrow{font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--accent-deep);font-weight:600}
+
+  /* top bar */
+  .topbar{position:sticky;top:0;z-index:50;background:rgba(248,245,239,.86);backdrop-filter:blur(14px);border-bottom:1px solid transparent;transition:border-color .3s}
+  .topbar[data-stuck="true"]{border-bottom-color:var(--line)}
+  .topbar .row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+  .brand{font-family:var(--display);font-size:1.05rem;letter-spacing:.01em}
+  .brand small{display:block;font-family:var(--body);font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);margin-top:2px}
+  .topnav{display:flex;gap:22px;font-size:.86rem}
+  .topnav a{text-decoration:none;color:var(--ink-soft)}
+  .topnav a:hover{color:var(--accent-deep)}
+  .btn{display:inline-flex;align-items:center;gap:9px;border-radius:999px;padding:13px 22px;font-size:.9rem;font-weight:600;text-decoration:none;border:1px solid var(--accent-deep);transition:transform .18s ease,background .18s ease,color .18s ease}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-solid{background:var(--accent-deep);color:var(--paper-2)}
+  .btn-ghost{background:transparent;color:var(--accent-deep)}
+  .btn-ghost:hover{background:var(--accent-deep);color:var(--paper-2)}
+
+  /* hero */
+  .hero{position:relative;overflow:hidden;padding:clamp(52px,9vw,104px) 0 clamp(46px,7vw,84px)}
+  .hero::before{content:"";position:absolute;inset:-30% -10% auto auto;width:min(620px,80vw);height:min(620px,80vw);border-radius:50%;background:radial-gradient(circle at 40% 40%,#c9a22722,transparent 68%);filter:blur(6px)}
+  .hero-grid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(28px,5vw,64px);align-items:end}
+  h1{font-family:var(--display);font-weight:500;font-size:clamp(2.4rem,6.2vw,4.4rem);line-height:1.02;letter-spacing:-.02em;margin:18px 0 0}
+  .lede{margin:22px 0 0;max-width:34ch;font-size:clamp(1rem,1.6vw,1.16rem);color:var(--ink-soft)}
+  .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+  .stamp{background:var(--paper-2);border:1px solid var(--line);border-radius:var(--radius);padding:26px 26px 22px;box-shadow:0 24px 60px -40px rgba(20,18,15,.5)}
+  .stamp .score{font-family:var(--display);font-size:3rem;line-height:1}
+  .stamp .score span{font-size:1.1rem;color:var(--ink-soft);margin-left:6px}
+  .stars{color:var(--accent);letter-spacing:.14em;margin-top:6px}
+  .stamp .meta{margin-top:14px;padding-top:14px;border-top:1px solid var(--line);font-size:.86rem;color:var(--ink-soft)}
+  .stamp .meta b{color:var(--ink);font-weight:600}
+
+  section{padding:clamp(48px,7vw,88px) 0;border-top:1px solid var(--line)}
+  h2{font-family:var(--display);font-weight:500;font-size:clamp(1.7rem,3.4vw,2.5rem);letter-spacing:-.015em;margin:14px 0 0}
+  .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:36px}
+  .card{background:var(--paper-2);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+  .card h3{font-family:var(--display);font-weight:500;font-size:1.2rem;margin:0 0 8px}
+  .card p{margin:0;color:var(--ink-soft);font-size:.95rem}
+  .num{font-family:var(--display);color:var(--accent-deep);font-size:.9rem;letter-spacing:.18em}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,56px);align-items:start;margin-top:36px}
+  .facts{list-style:none;padding:0;margin:0}
+  .facts li{display:flex;gap:14px;padding:15px 0;border-bottom:1px solid var(--line);font-size:.96rem}
+  .facts li:last-child{border-bottom:0}
+  .facts .k{min-width:96px;color:var(--ink-soft);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;padding-top:3px}
+  .mapbox{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--paper-2);min-height:320px}
+  .mapbox iframe{display:block;width:100%;height:100%;min-height:320px;border:0}
+  details{border-top:1px solid var(--line);padding:18px 0}
+  details summary{cursor:pointer;font-weight:600;font-size:1rem;list-style:none;display:flex;justify-content:space-between;gap:16px}
+  details summary::-webkit-details-marker{display:none}
+  details summary::after{content:"+";color:var(--accent-deep);font-size:1.2rem;line-height:1}
+  details[open] summary::after{content:"–"}
+  details p{margin:12px 0 0;color:var(--ink-soft);font-size:.95rem}
+  .enquire{background:var(--accent-deep);color:#f6f2ec;border-radius:calc(var(--radius) + 8px);padding:clamp(30px,5vw,56px);margin:0 auto;display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,4vw,52px)}
+  .enquire h2{color:#fff;margin-top:10px}
+  .enquire .eyebrow{color:#ecd79a}
+  .enquire p{color:rgba(255,255,255,.78);margin:14px 0 0}
+  form{display:grid;gap:12px}
+  input,textarea,select{width:100%;padding:13px 15px;border-radius:12px;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.06);color:#fff;font-family:var(--body);font-size:.95rem}
+  input::placeholder,textarea::placeholder{color:rgba(255,255,255,.55)}
+  input:focus,textarea:focus,select:focus{outline:2px solid #ecd79a;outline-offset:1px}
+  option{color:#111}
+  form button{justify-self:start;background:var(--paper-2);color:var(--accent-deep);border:0;border-radius:999px;padding:13px 24px;font-weight:700;font-size:.92rem;cursor:pointer;transition:transform .18s ease}
+  form button:hover{transform:translateY(-2px)}
+  .hint{font-size:.78rem;color:rgba(255,255,255,.6);margin:0}
+
+  footer{padding:44px 0 60px;background:var(--paper-2);border-top:1px solid var(--line)}
+  .foot{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:flex-start;font-size:.85rem;color:var(--ink-soft)}
+  .foot b{color:var(--ink);font-weight:600}
+  .disclaimer{margin-top:22px;font-size:.78rem;line-height:1.6;color:var(--ink-soft);max-width:78ch}
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media (max-width:900px){
+    .hero-grid,.cols,.two,.enquire{grid-template-columns:1fr}
+    .topnav{display:none}
+    .enquire{padding:30px 22px}
+  }
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.btn:hover{transform:none}}
+</style>
+</head>
+<body>
+
+<div class="topbar" id="topbar">
+  <div class="wrap row">
+    <div class="brand">Varmecha Classes<small>Scheme 78, Vijay Nagar · Indore</small></div>
+    <nav class="topnav">
+      <a href="#about">About</a>
+      <a href="#reputation">Reviews</a>
+      <a href="#visit">Visit</a>
+      <a href="#enquire">Enquire</a>
+    </nav>
+    <a class="btn btn-solid" href="https://wa.me/918839389003" target="_blank" rel="noopener" style="padding:10px 18px;font-size:.82rem">Enquire</a>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">COACHING CENTRE · Indore</div>
+      <h1>Varmecha Classes</h1>
+      <p class="lede">A coaching centre on Scheme 78, Vijay Nagar in Indore, rated 4.9 out of 5 by 45 people on Google.</p>
+      <div class="cta-row">
+        <a class="btn btn-solid" href="https://wa.me/918839389003?text=Hello%20Varmecha%20Classes" target="_blank" rel="noopener">Enquire on WhatsApp</a><a class="btn btn-ghost" href="tel:+918839389003">Call the centre</a>
+      </div>
+    </div>
+    <div class="stamp"><div class="score">4.9<span>out of 5</span></div><div class="stars">★★★★½</div><div class="meta"><b>45</b> Google reviews<br><span>Google Maps listing, 2 November 2026</span></div></div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="eyebrow">Overview</div>
+    <h2>What this place is</h2>
+    <div class="two">
+      <div class="reveal">
+        <p>Varmecha Classes is a coaching centre based in Scheme 78, Vijay Nagar, Indore. The public Google listing records 4.9 out of 5 across 45 reviews, and that listing is the source for every fact on this page.</p>
+        <p>It is at Scheme No 78 III, Vijay Nagar, Indore 452010. Until now the business has had no website of its own, which means everything a customer wants to know has had to go through a phone call or a name search on Google.</p>
+      </div>
+      <ul class="facts reveal">
+        <li><span class="k">Name</span><span>Varmecha Classes</span></li>
+        <li><span class="k">Type</span><span>Coaching centre</span></li>
+        <li><span class="k">Area</span><span>Scheme 78, Vijay Nagar, Indore</span></li>
+        <li><span class="k">Google</span><span>4.9 · 45 reviews</span></li>
+        <li><span class="k">Phone</span><span>+91 88393 89003</span></li>
+      </ul>
+    </div>
+    <div class="cols">
+      <div class="card reveal"><span class="num">01</span><h3>Known locally</h3><p>4.9 out of 5 across 45 Google reviews, as published on the listing.</p></div>
+      <div class="card reveal"><span class="num">02</span><h3>Easy to reach</h3><p>Scheme No 78 III, Vijay Nagar, Indore 452010. The map above opens straight to the address.</p></div>
+      <div class="card reveal"><span class="num">03</span><h3>Talk to someone</h3><p>Call +91 88393 89003, or send a WhatsApp message from the form below.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="offer">
+  <div class="wrap">
+    <div class="eyebrow">Teaching</div>
+    <h2>How the teaching is organised</h2>
+    <p style="max-width:66ch;color:var(--ink-soft);margin:14px 0 0">Built from how this place describes itself publicly. Timings, batches and fees are the centre's to confirm, so ask before you go.</p>
+    <div class="cols"><div class="card reveal"><span class="num">01</span><h3>Structured batches</h3><p>Students move through the syllabus in batches rather than one-off sessions.</p></div><div class="card reveal"><span class="num">02</span><h3>Exam-focused practice</h3><p>Regular tests and revision are the usual rhythm for this kind of centre.</p></div><div class="card reveal"><span class="num">03</span><h3>Doubt clearing</h3><p>A slot to bring back what did not land the first time.</p></div></div>
+  </div>
+</section>
+
+
+<section id="reputation">
+  <div class="wrap">
+    <div class="eyebrow">Reputation</div>
+    <h2>What Google shows</h2>
+    <div class="two">
+      <div class="reveal">
+        <p>Varmecha Classes holds 4.9 out of 5 from 45 Google reviews. Enough people have taken the trouble to rate it that the number means something.</p>
+        <p>Ratings and review counts move over time. The figures on this page are what the public Google listing showed when this preview was built, and they are the only performance numbers shown here on purpose: there are no invented scores, no made-up testimonials and no stock photos pretending to be the premises.</p>
+      </div>
+      <div class="stamp reveal" style="box-shadow:none">
+        <div class="score">4.9<span>out of 5</span></div>
+        <div class="stars">★★★★½</div>
+        <div class="meta"><b>45</b> Google reviews<br><span>Google Maps listing, 2 November 2026</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="visit">
+  <div class="wrap">
+    <div class="eyebrow">Visit</div>
+    <h2>Where to find it</h2>
+    <div class="two">
+      <div class="reveal">
+        <p style="margin-top:0"><strong>Scheme No 78 III, Vijay Nagar, Indore 452010</strong></p>
+        <p>Use the map for the exact turn. If you are coming by two-wheeler, the entrance is on the main road side. Call ahead before a first visit so someone is free to talk.</p>
+        <div class="cta-row">
+          <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Varmecha+Classes+Scheme+No+78+III,+Vijay+Nagar,+Indore+452010+Indore" target="_blank" rel="noopener">Open in Google Maps</a>
+          <a class="btn btn-ghost" href="tel:+918839389003">Call the centre</a>
+        </div>
+      </div>
+      <div class="mapbox reveal">
+        <iframe title="Map of Varmecha Classes" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Varmecha+Classes+Scheme+No+78+III,+Vijay+Nagar,+Indore+452010+Indore&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="enquire">
+  <div class="wrap">
+    <div class="enquire">
+      <div>
+        <div class="eyebrow">Enquire</div>
+        <h2>Ask before you go</h2>
+        <p>Send a message and it opens WhatsApp with your question already written. Nothing is stored on this page: it is a preview site with no booking system behind it.</p>
+        <p class="hint">Questions this page deliberately does not answer: fees, batch timings, syllabus and admissions. Those belong to the people who run the place.</p>
+      </div>
+      <form id="enq">
+        <input id="who" type="text" placeholder="Your name" autocomplete="name" required>
+        <textarea id="msg" rows="4" placeholder="What would you like to ask?" required>Hello Varmecha Classes, I found your page online and wanted to ask about </textarea>
+        <button type="submit">Send on WhatsApp</button>
+        <p class="hint">Opens WhatsApp with the message ready to send.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Questions</div>
+    <h2>Things people ask</h2>
+    <div style="margin-top:26px">
+      <details><summary>Which classes run right now?</summary><p>That changes with term and staffing. A call to the centre gets you the current list.</p></details>
+      <details><summary>What are the fees?</summary><p>Not published here because fees are the owner's to state. Call to ask.</p></details>
+      <details><summary>Is this the official website?</summary><p>Not yet. This is a preview built from the public Google listing, not commissioned by the centre.</p></details>
+      <details><summary>Where exactly is it?</summary><p>Scheme No 78 III, Vijay Nagar, Indore 452010</p></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div><b>Varmecha Classes</b><br>Scheme 78, Vijay Nagar, Indore<br>+91 88393 89003</div>
+      <div><b>Built by DEVANSHVERSE</b><br>Websites for local businesses<br>devanshverse08@gmail.com</div>
+    </div>
+    <p class="disclaimer">Preview site. All facts here come from the public Google Maps listing for Varmecha Classes as shown on 2 November 2026. Nothing has been invented, including fees, timings, staff, offers and photographs. This page is not affiliated with or authorised by the business. If you own this business and want the site taken down or handed over, write to devanshverse08@gmail.com.</p>
+  </div>
+</footer>
+
+<script>
+  const bar=document.getElementById('topbar');
+  const onScroll=()=>bar.dataset.stuck=String(window.scrollY>12);
+  onScroll(); addEventListener('scroll',onScroll,{passive:true});
+
+  const io=new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  const form=document.getElementById('enq');
+  form.addEventListener('submit',(ev)=>{
+    ev.preventDefault();
+    const who=document.getElementById('who').value.trim();
+    const msg=document.getElementById('msg').value.trim();
+    const num="918839389003";
+    const text=encodeURIComponent((who?('Hi, I am '+who+'. '):'')+msg);
+    const url=num?("https://wa.me/"+num+"?text="+text)
+                 :("https://www.google.com/maps/search/"+encodeURIComponent("Varmecha Classes Scheme 78, Vijay Nagar Indore"));
+    window.open(url,'_blank','noopener');
+  });
+</script>
+</body>
+</html>
